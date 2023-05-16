@@ -1,11 +1,11 @@
 <h1>Capitolo 2 - Basi di TypeScript e Tipi base</h1>
 <h2>Utilizzare i Tipi</h2> 
 
-<p>I Tipi fondamentali che JavaScript conosce e che TypeScript supporta sono:</p>
+<p>I Tipi fondamentali che JavaScript conosce e che TypeScript supporta sono:
 
 <li>number - tutte le tipologie dei numeri</li>
 <li>string - tutti i valori testuali</li>
-<li>boolean</li>
+<li>boolean</li></p>
 
 <b>N.B. I Tipi fondamentali string e number sono tutti in minuscolo</b>
 <br>
