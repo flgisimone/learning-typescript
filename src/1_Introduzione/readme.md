@@ -56,6 +56,7 @@
 <p><b>N.B. Per verificare se ci sono errori in Typescripts si può utilizzare il comando npx tsc [percorso file] all’interno del terminale.</b></p>
 
 <h2>Panoramica vantaggi Typescript</h2>
+<p>Alcuni dei vantaggi di TypeScript sono: </p>
 <li>Aggiunge tipi e dati super importanti</li>
 <li>Con i tipi bisogna essere molto più espliciti su come funzionano le cose evitando errori</li>
 <li>È possibile utilizzare funzionalità JavaScript di nuova generazione che funzionano anche con i browser più vecchi</li>
