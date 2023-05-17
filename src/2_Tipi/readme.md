@@ -152,5 +152,10 @@ Può assumere solo determinati valori predefiniti, noti come membri, che non pos
     stringLength("ciao", "hello", (wordLength) => {
         console.log(wordLength) //-> hello
     })
-
 </p>
+
+<p>All’interno della funzione andiamo a definire i parametri, tra questi una funzione come Tipo, che avrà al suo interno un parametro, in questo caso di tipo stringa, e ritornerà void, ovvero l’assenza di un valore.</p>
+
+<p>Dopo aver implementato ciò che deve fare la funzione, bisogna chiamare la funzione come parametro con all’interno l’eventuale variabile a cui è stata assegnata l’operazione da svolgere, in questo caso <b>lengthFunc è la funzione come parametro e wordLength la variabile assegnata ad essa</b>.</p>
+
+<p>Una volta fatto ciò, bisognerà chiamare la funzione (stringLength) con gli argomenti da passare all’interno dei parametri. In particolare, <b>per la funzione come Tipo verrà assegnata un arrow function con la variabile utilizzata e chiamata all’interno della funzione come Tipo stessa</b>.</p>
