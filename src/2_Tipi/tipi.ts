@@ -1,5 +1,4 @@
 //TUPLE
-
     let tuplaPerson: [string, object] //-> Dichiarazione Tupla con all'interno i Type
     tuplaPerson = ["ADMIN", {
         subRole: ["Editor", "Autor"]
@@ -7,19 +6,17 @@
 
     
 //ENUM
-
     enum RoleIndex { ADMIN_index , AUTHOR_index} //-> Dichiarazione costanti. In questo caso senza avergli assegnato un valore prende l'indice
     let role_index = RoleIndex.ADMIN_index
 
-    console.log("Indice ruolo:", role_index) //output -> 0
+    console.log("ENUM SOLO INDICE \n", "Indice ruolo:", role_index) //output -> 0
 
     enum Role { ADMIN = "ADMIN", AUTHOR = "AUTHOR"} //-> Dichiarazione costanti. In questo caso avendo assegnato un valore prende quest ultimo
     let role = Role.ADMIN
 
-    console.log(role) //output -> "ADMIN"
+    console.log("ENUM PROPRIETA' ASSEGNATA \n", role) //output -> "ADMIN"
 
 //UNION TYPES
-
     function combineFunc(
         input1: number | string, 
         input2: number | string)
@@ -40,11 +37,10 @@
     const combinedAges = combineFunc(1, 1)
     const combinedNames = combineFunc("Mario ", "Rossi")
 
-    console.log("combinedAges:", combinedAges) //-> 2
-    console.log("combinedNames:", combinedNames) // -> Mario Rossi
+    console.log("UNITON TYPES \n", "combinedAges:", combinedAges) //-> 2
+    console.log("UNION TYPES \n", "combinedNames:", combinedNames) // -> Mario Rossi
 
 //TYPE ALIASES
-
     type Combinable = number | string
 
     function combineInp(inp1: Combinable){
@@ -58,22 +54,20 @@
     const combineNum = combineInp(10)
     const combineString = combineInp("Paolo Rossi")
 
-    console.log("combineNum", combineNum)
-    console.log("combineString", combineString)
+    console.log("TYPE ALIASES \n", "combineNum: ", combineNum)
+    console.log("TYPE ALIASES \n", "combineString: ", combineString)
 
 //TYPE ALIASES & OBJECT TYPES
-
     type User = { name: string; age: number }
     const user: User = { name: "Simone", age: 26 }
 
     function greet(userInfo: User) {
-        console.log("Ciao " + userInfo.name) //-> Ciao, sono Simone
+        console.log("TYPE ALIASES & OBJECT TYPES \n", "Ciao " + userInfo.name) //-> Ciao, sono Simone
     }
 
     greet(user)
 
 //FUNCTIONS AS TYPES
-
     let compareNums: (num1: number, num2: number) => boolean
 
     compareNums = (num1: number, num2: number) => {
@@ -81,10 +75,9 @@
     }
 
     const resultCompare = compareNums(5, 4)
-    console.log(resultCompare) //-> true
+    console.log("FUNCTIONS AS TYPES \n", resultCompare) //-> true
 
 //FUNCTION TYPES & CALLBACKS
-
     function stringLength(
         word1: string, 
         word2: string, 
@@ -96,7 +89,7 @@
     }
 
     stringLength("ciao", "hello", (wordLength) => {
-        console.log(wordLength) //-> hello
+        console.log("FUNCTION TYPES & CALLBACKS \n", wordLength) //-> hello
     })
 
 
