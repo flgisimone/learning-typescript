@@ -46,6 +46,13 @@
 <li>Parametri e Proprietà opzionali</li>
 </ul>
 
+<h3>Capitolo 5 - Tipi Avanzati</h3>
+<ul>
+<li>Tipi Intersezione</li>
+<li>Unioni discriminanti</li>
+<li>Type Casting</li>
+</ul>
+
 <h3>To Be Continued...</h3>
 <hr>
 <h2>NOTE</h2>
