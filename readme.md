@@ -22,6 +22,30 @@
 <li>Tipi di funzione & Callbacks</li>
 </ul>
 
+<h3>Capitolo 3 - Compilatore TypeScript e configurazione</h3>
+<ul>
+<li>Watch Mode</li>
+<li>Compilare intero progetto/file multipli</li>
+<li>Includere ed escludere File</li>
+</ul>
+
+<h3>Capitolo 4 - Classi e Interfacce</h3>
+<ul>
+<li>Cosa sono le classi</li>
+<li>Creare una classe</li>
+<li>Funzioni Constructor & Keyword “this”</li>
+<li>Modificatori di accesso “Private” e “Public”</li>
+<li>Shorthand Inizializzazione</li>
+<li>Proprietà “readonly”</li>
+<li>Modificatore "protected"</li>
+<li>Inheritance</li>
+<li>Getters & Setters</li>
+<li>Classi astratte</li>
+<li>Interface</li>
+<li>Usare le interfacce con le Classi</li>
+<li>Parametri e Proprietà opzionali</li>
+</ul>
+
 <h3>To Be Continued...</h3>
 <hr>
 <h2>NOTE</h2>
