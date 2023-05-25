@@ -7,17 +7,27 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
 
     /* Linting */
-    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+
+    "module": "commonjs", 
+    "esModuleInterop": true,   
+    "forceConsistentCasingInFileNames": true,  
+    "strict": true,
+  
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

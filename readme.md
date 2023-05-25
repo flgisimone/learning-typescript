@@ -22,4 +22,13 @@
 <li>Tipi di funzione & Callbacks</li>
 </ul>
 
-<h4>Continue...</h4>
+<h3>To Be Continued...</h3>
+<hr>
+<h2>NOTE</h2>
+<li>In JavaScript quando si accede al valore di un elemento di input qualsiasi, questo è sempre una stringa.</li>
+<li>L'inferenza dei Tipi evita la necessità di specificare esplicitamente i Tipi.</li>
+
+
+
+
+    

@@ -89,13 +89,19 @@ Può assumere solo determinati valori predefiniti, noti come membri, che non pos
     type Combinable = number | string
 
     function combineInp(inp1: Combinable){
-        let result
-        if(typeof inp1 === "number") return result = inp1
-        if(typeof inp1 === "string") return result = inp1
+        let resultCombinable
+        if(typeof inp1 === "number") return resultCombinable = inp1
+        if(typeof inp1 === "string") return resultCombinable = inp1
+        
+        return resultCombinable
     }
 
-    combineInp(10)
-    combineInp("Mario Rossi")
+    const combineNum = combineInp(10)
+    const combineString = combineInp("Paolo Rossi")
+
+    console.log("combineNum", combineNum)
+    console.log("combineString", combineString)
+
 </p>
 
 <p>Si dichiara la parola chiave <b>Type</b>, supportata solo da TypeScript, <b>seguita da</b> un nome identificativo, cioè l’<b>alias</b>. Dopodiché <b>aggiungiamo il simbolo uguale (=) seguito dai Tipi</b> delle variabili da utilizzare <b>separati dalla pipe (|)</b>.</p>

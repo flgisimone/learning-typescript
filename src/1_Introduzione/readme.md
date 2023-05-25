@@ -53,7 +53,7 @@
 <h3 style="color:red"><b>Tipizzazione num1 e num2</b></h3>
 <p><b>Typescript non riconosce di che tipo sono i parametri</b> non essendo specificati esplicitamente, <b>per fare ciò è necessario aggiungere i due punti (:) e specificare il tipo</b>, in questo caso number.</p>
 <p><b>In JavaScript quando si accede al valore di un elemento di input qualsiasi, questo è sempre una stringa, pertanto sarà necessario convertire input1.value e input2.value da string a number, in questo caso utilizzando il costruttore Number(), o in alternativa il simbolo +.</b></p>
-<p><b>N.B. Per verificare se ci sono errori in Typescripts si può utilizzare il comando npx tsc [percorso file] all’interno del terminale.</b></p>
+<p><b>N.B. Per verificare se ci sono errori in Typescripts si può utilizzare il comando npx tsc [percorso file] all’interno del terminale. Per installare il pacchetto -> npm i tsc.</b></p>
 
 <h2>Panoramica vantaggi Typescript</h2>
 <p>Alcuni dei vantaggi di TypeScript sono: </p>

@@ -48,13 +48,18 @@
     type Combinable = number | string
 
     function combineInp(inp1: Combinable){
-        let result
-        if(typeof inp1 === "number") return result = inp1
-        if(typeof inp1 === "string") return result = inp1
+        let resultCombinable
+        if(typeof inp1 === "number") return resultCombinable = inp1
+        if(typeof inp1 === "string") return resultCombinable = inp1
+        
+        return resultCombinable
     }
 
-    combineInp(10)
-    combineInp("Mario Rossi")
+    const combineNum = combineInp(10)
+    const combineString = combineInp("Paolo Rossi")
+
+    console.log("combineNum", combineNum)
+    console.log("combineString", combineString)
 
 //TYPE ALIASES & OBJECT TYPES
 
