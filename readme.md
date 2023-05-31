@@ -51,6 +51,19 @@
 <li>Tipi Intersezione</li>
 <li>Unioni discriminanti</li>
 <li>Type Casting</li>
+
+<h3>Capitolo 6 - Generici</h3>
+<ul>
+<li>Creare una funzione generica</li>
+<li>Constraint “keyof”</li>
+<li>Classi generiche</li>
+
+<h3>Capitolo 7 - Decoratori</h3>
+<ul>
+<li>Decoratore Classe</li>
+<li>Factory di Decoratori</li>
+<li>Decoratori utili (manipolazione del DOM)</li>
+<li>Aggiungere Decoratori Multipli</li>
 </ul>
 
 <h3>To Be Continued...</h3>

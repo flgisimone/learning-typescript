@@ -10,7 +10,7 @@
 <b>N.B. I Tipi fondamentali string e number sono tutti in minuscolo</b>
 <br>
 <h2>Tipi in JavaScript e Tipi in TypeScript</h2>
-<p>La differenza di Tipo tra Javascript e TypeScript è che nel primo caso la tipizzazione avviene dinamicamente, ciò significa che una variabile potrebbe cambiare Tipo dopo la prima assegnazione. <b>In TypeScript</b> la tipizzazione avviene staticamente, il che significa che <b>definiamo i tipi di variabili e parametri durante lo sviluppo</b>, senza che essi cambino. </p>
+<p>La differenza di Tipo tra Javascript e TypeScript è che nel primo caso la tipizzazione avviene dinamicamente, ciò significa che una variabile potrebbe cambiare Tipo dopo la prima assegnazione. <b>In TypeScript</b> la tipizzazione avviene staticamente, il che significa che <b>definiamo i tipi di variabili e argomenti durante lo sviluppo</b>, senza che essi cambino. </p>
 <p>Inoltre, TypeScript conosce molti più Tipi di JavaScript.</p>
 
 <p>Tra i Tipi complessi abbiamo: array, object, tuple e enum.</p>
@@ -50,10 +50,10 @@ Può assumere solo determinati valori predefiniti, noti come membri, che non pos
 </p>
 
 <h2>Union Types</h2>
-<p>L’Union Types è una combinazione tra più Tipi di parametri all’interno di una funzione così da poter ottenere più scenari.</p>
-<p>Per fare ciò è necessario utilizzare come separatore una pipe (|) tra un Tipo e l’altro da assegnare ad un parametro, così da far capire a TypeScript che va bene qualsiasi Tipo assegnato.</p>
-<p>Tuttavia TypeScript vede solo la presenza di un'unione e non analizza cosa c’è in essa, pertanto nel caso in cui i parametri vengano utilizzati ad esempio in un operazione, utilizzando degli operatori, darà errore.</p>
-<p>Per evitare questo problema è possibile aggiungere un controllo runtime sul Tipo di parametri.</p>
+<p>L’Union Types è una combinazione tra più Tipi di argomenti all’interno di una funzione così da poter ottenere più scenari.</p>
+<p>Per fare ciò è necessario utilizzare come separatore una pipe (|) tra un Tipo e l’altro da assegnare ad un argomento, così da far capire a TypeScript che va bene qualsiasi Tipo assegnato.</p>
+<p>Tuttavia TypeScript vede solo la presenza di un'unione e non analizza cosa c’è in essa, pertanto nel caso in cui i argomenti vengano utilizzati ad esempio in un operazione, utilizzando degli operatori, darà errore.</p>
+<p>Per evitare questo problema è possibile aggiungere un controllo runtime sul Tipo di argomenti.</p>
 
 <p>Esempio:
 
@@ -136,12 +136,12 @@ Può assumere solo determinati valori predefiniti, noti come membri, che non pos
     console.log(resultCompare) //-> true
 </p>
 
-<p>In questo caso andiamo a dichiarare una variabile (functionTypes) che accetta due parametri, entrambi con Tipo number e restituisce un valore booleano.</p>
-<p>Successivamente è stato assegnato a functionTypes un arrow function che al suo interno ritorna il confronto tra i valori assegnati da parametro, entrambi number.</p>
+<p>In questo caso andiamo a dichiarare una variabile (functionTypes) che accetta due argomenti, entrambi con Tipo number e restituisce un valore booleano.</p>
+<p>Successivamente è stato assegnato a functionTypes un arrow function che al suo interno ritorna il confronto tra i valori assegnati da argomento, entrambi number.</p>
 <p>Fatto ciò andiamo ad analizzare una costante (resultCompare) uguale alla chiamata di funzione (functionTypes) con all’interno i valori da assegnare come argomenti, che ritornerà come risultato finale true o false.</p>
 
 <h2>Tipi di funzione & Callbacks</h2>
-<p>Per utilizzare una callback tra i parametri di una funzione è necessario utilizzare le funzioni come Tipi.</p>
+<p>Per utilizzare una callback tra i argomenti di una funzione è necessario utilizzare le funzioni come Tipi.</p>
 
 <p>Esempio:
 
@@ -160,8 +160,8 @@ Può assumere solo determinati valori predefiniti, noti come membri, che non pos
     })
 </p>
 
-<p>All’interno della funzione andiamo a definire i parametri, tra questi una funzione come Tipo, che avrà al suo interno un parametro, in questo caso di tipo stringa, e ritornerà void, ovvero l’assenza di un valore.</p>
+<p>All’interno della funzione andiamo a definire i argomenti, tra questi una funzione come Tipo, che avrà al suo interno un argomento, in questo caso di tipo stringa, e ritornerà void, ovvero l’assenza di un valore.</p>
 
 <p>Dopo aver implementato ciò che deve fare la funzione, bisogna chiamare la funzione come parametro con all’interno l’eventuale variabile a cui è stata assegnata l’operazione da svolgere, in questo caso <b>lengthFunc è la funzione come parametro e wordLength la variabile assegnata ad essa</b>.</p>
 
-<p>Una volta fatto ciò, bisognerà chiamare la funzione (stringLength) con gli argomenti da passare all’interno dei parametri. In particolare, <b>per la funzione come Tipo verrà assegnata un arrow function con la variabile utilizzata e chiamata all’interno della funzione come Tipo stessa</b>.</p>
+<p>Una volta fatto ciò, bisognerà chiamare la funzione (stringLength) con i parametri da passare all’interno degli argomenti. In particolare, <b>per la funzione come Tipo verrà assegnata un arrow function con la variabile utilizzata e chiamata all’interno della funzione come Tipo stessa</b>.</p>

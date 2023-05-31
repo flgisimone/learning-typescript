@@ -29,8 +29,8 @@
 
     const itDepartment = new ITDepartment(["Elisa"])
     itDepartment.describe()// -> Metodo richiamato
-    itDepartment.addEmployee("Franco")// -> Metodo richiamato con argomento
-    itDepartment.addEmployee("Orazio")// -> Metodo richiamato con argomento
+    itDepartment.addEmployee("Franco")// -> Metodo richiamato con parametro
+    itDepartment.addEmployee("Orazio")// -> Metodo richiamato con parametro
 
     console.log("CLASSE BASE", department)
     console.log("CLASSE DERIVATA", itDepartment)
@@ -148,5 +148,5 @@
         }
     }
 
-    user1 = new Person("Mirko", "Galileo", 30) //-> Corrisponderà ad un oggetto e non avendo l'argomento per "birth" tornerà per il suo valore undefined
+    user1 = new Person("Mirko", "Galileo", 30) //-> Corrisponderà ad un oggetto e non avendo il parametro per "birth" tornerà per il suo valore undefined
     console.log("CLASSE CON INTERFACE E PARAMETRO OPZIONALE (tornato in undefined)", user1)
