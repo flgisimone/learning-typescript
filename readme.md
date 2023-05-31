@@ -2,7 +2,6 @@
 <h2>Le dispense sono all'interno della cartella /src</h2>
 
 <h3>Indice</h3>
-<hr>
 <h3>Capitolo 1 - Introduzione</h3>
 <ul>
 <li>Cos’è TypeScript e perchè viene utilizzato</li>
