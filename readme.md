@@ -1,7 +1,8 @@
-<h1>Le dispense sono all'interno della cartella /src</h1>
+<h1>Learning TypeScript</h1>
+<h2>Le dispense sono all'interno della cartella /src</h2>
 
-<h2>Indice</h2>
-
+<h3>Indice</h3>
+<hr>
 <h3>Capitolo 1 - Introduzione</h3>
 <ul>
 <li>Cos’è TypeScript e perchè viene utilizzato</li>
@@ -51,12 +52,14 @@
 <li>Tipi Intersezione</li>
 <li>Unioni discriminanti</li>
 <li>Type Casting</li>
+</ul>
 
 <h3>Capitolo 6 - Generici</h3>
 <ul>
 <li>Creare una funzione generica</li>
 <li>Constraint “keyof”</li>
 <li>Classi generiche</li>
+</ul>
 
 <h3>Capitolo 7 - Decoratori</h3>
 <ul>
@@ -66,7 +69,6 @@
 <li>Aggiungere Decoratori Multipli</li>
 </ul>
 
-<h3>To Be Continued...</h3>
 <hr>
 <h2>NOTE</h2>
 <li>In JavaScript quando si accede al valore di un elemento di input qualsiasi, questo è sempre una stringa.</li>
